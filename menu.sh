@@ -2,8 +2,8 @@
 
 set -u
 
-OPTION=$(whiptail --title "cloudabove Toolkit v0.1" --menu "Choose your option" 15 60 8 \
-"1" "Migrate (Site & email data between cPanel accounts via FTP or RSYNC)" \
+OPTION=$(whiptail --title "cloudabove Toolkit v0.2" --menu "Choose your option" 15 60 8 \
+"1" "Migrate (Site & email data cP > cP via FTP or RSYNC)" \
 "2" "Report (Custom DNS Report)" \
 "3" "Work in progress" \
 "4" "Disk Space Tools" \
